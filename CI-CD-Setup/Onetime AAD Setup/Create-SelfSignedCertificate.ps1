@@ -41,6 +41,6 @@ function CreateSelfSignedCertificate{
 $CommonName= "SPFx CI-CD Deployment App Certificate"
 $StartDate= "2023-02-02"
 $EndDate= "2045-12-31"
-$Password = "TempP@ssw0rd"
+$Password = "mypassword"
 CreateSelfSignedCertificate -CommonName $CommonName -StartDate $StartDate -EndDate $EndDate -Password $Password
 #.\Create-SelfSignedCertificate.ps1 -CommonName "SPFx CI-CD Deployment App Certificate" -StartDate "2022-02-02"  -EndDate "2023-10-02" -Password "mypassword"
